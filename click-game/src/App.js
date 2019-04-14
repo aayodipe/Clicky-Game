@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import Container from './components/Container'
+import Cardlist from './components/CardList'
 
 class App extends Component {
   render() {
-    return <Container />
+    return <Cardlist />
          
   }
 }
