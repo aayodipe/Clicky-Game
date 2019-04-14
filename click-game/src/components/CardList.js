@@ -10,7 +10,9 @@ class Cardlist extends Component{
      }
 
      handleRobotClick = (event)=>{
-       
+           const sortedRobots = robots.sort(function(){ return Math.random()-0.5})
+      
+       this.setState({robots: sortedRobots})
 
      }
 
