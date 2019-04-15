@@ -1,9 +1,15 @@
 import React from 'react'
 
-const Header = ()=>{
+
+const Header = (props)=>{
      return(
-          <div  className = "bg-primary">
-             This is my header  
+          <div  className = "row bg-dark header sticky-top">
+
+            <span className = "col-3 text-white h3 clicky pl-4" >Clicky Game </span> 
+            <span className = "col-5 text-white h3">{props.instruction}</span>
+            <span className ="col-2 text-white h3 score"> Score: {props.score}  </span>
+         
+            <span className = "col-2 text-white h3 score">Top Score:{props.topScore}</span>
           </div>
      )
 }
