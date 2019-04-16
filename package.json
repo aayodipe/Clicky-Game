@@ -11,12 +11,15 @@
     "react-bootstrap": "^1.0.0-beta.8",
     "tachyons": "^4.11.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --config prettier.config.js --write **/*.js(x)"
   },
   "eslintConfig": {
     "extends": "react-app"
