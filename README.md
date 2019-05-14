@@ -7,7 +7,7 @@ You can view this project live [here](https://aayodipe.github.io/Clicky-Game/).
 # Technologies
 * CSS
 * HTML
-* JAVASCRIPT
+* Javascript
 * React
 * Nodejs
 * Express
